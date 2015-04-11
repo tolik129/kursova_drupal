@@ -1,0 +1,13 @@
+name = modelDrupal
+description = new themes for drupal modelDrupal
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = style.css
+
+regions[header_menu] = Меню в шапке сайта
+regions[block1] = Блок 1
+regions[block2] = Блок 2
+regions[block3] = Блок 3
+regions[content] = Контент
+regions[right_sidebar] = Правая колонка
